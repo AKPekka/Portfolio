@@ -624,6 +624,23 @@ footer {
     header nav ul li { margin: 0 0.5rem; }
     header nav ul li a { font-size: 0.85rem; }
     .project-card img { height: 180px; }
+
+    .experience-item .job-dates {
+        font-size: 0.8rem; /* Smaller font size for dates on mobile */
+        white-space: normal; /* Allow dates to wrap */
+        text-align: left; /* Align to left if it was centered */
+        margin-top: 5px; /* Add some space if it wraps under title/company */
+        width: 100%; /* Ensure it takes full width available in its container */
+    }
+
+    .experience-header {
+        flex-direction: column; /* Stack header items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .experience-title-company {
+        margin-bottom: 5px; /* Space between title/company and dates */
+    }
 }
 
 /* Styling for the 'View Full Project Details' link in the modal */
