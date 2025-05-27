@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 Details - AKP Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">AKP</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="project-detail-page">
+            <section id="project-content" class="content-section">
+                <h2 class="section-title" id="projectTitle">1933 Hot Rod RC Vehicle: Parametric Redesign and Performance Optimization</h2>
+                <img src="assets/images/project3_thumb.jpg" alt="Project 3 Hero Image" class="project-hero-image-detail">
+
+                <div class="project-description-full">
+                    <p id="projectDescription">This project involved the complete digital re-engineering and performance optimization of a 1933 Hot Rod RC vehicle using Siemens NX. The design was fully parametric and morphable, enabling rapid adjustment of key dimensions—from body proportions to minute features like screws and shell details. My primary responsibilities included leading all surface modeling for the body shell, as well as conducting extensive structural and aerodynamic simulations. The main goal was to improve performance by reducing weight, minimizing drag, and ensuring structural integrity across all components.</p>
+                    <P> Through advanced surface modeling, I developed a high-fidelity shell with scalable parameters, allowing the team to test different design scenarios and constraints. Using topology optimization and FEA, we achieved significant mass reductions in parts like wheels, suspension arms, and chassis supports, all while maintaining or improving strength and stiffness. Aerodynamic performance was rigorously tested through CFD analysis, resulting in a redesigned shell that lowered drag without compromising the iconic Hot Rod aesthetic. Every change was validated in simulation before integration into the final assembly, delivering a lighter, faster, and more customizable RC vehicle.</P>
+                </div>
+
+                <div class="project-features-full">
+                    <h3 class="subsection-title">Key Features & Contributions:</h3>
+                    <ul id="projectKeyFeatures">
+                        <li>Fully morphable, parametric RC vehicle design—from body shell to fasteners—enabling rapid adaptation for different scenarios.</li>
+                        <li>High-precision surface modeling and complex assembly organization in Siemens NX.</li>
+                        <li>Topology optimization and FEA-driven mass reduction for critical components while maintaining structural integrity.</li>
+                        <li>Aerodynamic shell redesign validated by CFD, achieving measurable drag reduction at simulated driving speeds.</li>
+                        <li>Integration of optimized geometry, material selection, and real assembly data for comprehensive digital-to-physical validation.</li>
+                    </ul>
+                </div>
+
+                <div class="project-features-full">
+                    <h3 class="subsection-title">My Key Contributions:</h3>
+                    <ul id="projectKeyFeatures">
+                        <li>Served as surface modeling and simulation lead, responsible for the entire body shell design and refinement.</li>
+                        <li>Performed all CFD analysis to evaluate and minimize aerodynamic drag on shell designs and modifications.</li>
+                        <li>Conducted FEA and topology optimization for mass reduction and strength improvement across wheels, suspension, and chassis parts.</li>
+                        <li>Managed parametric modeling workflows, ensuring all vehicle components could be quickly morphed for scenario testing.</li>
+                        <li>Collaborated closely with teammates to integrate all subsystems, document design iterations, and troubleshoot complex CAD errors.</li>
+                    </ul>
+                </div>
+
+                <div class="project-technologies-full">
+                    <h3 class="subsection-title">Technologies Used:</h3>
+                    <div class="tech-stack" id="projectTechnologies">
+                        <span>Siemens NX</span>
+                        <span>STAR-CCM+</span>
+                        <span>Altair Inspire</span>
+                    </div>
+                </div>
+
+                <div class="project-gallery">
+                    <h3 class="subsection-title">Project Gallery</h3>
+                    <div class="gallery-grid">
+                        
+                        <img src="assets/images/project3_shell.png" alt="Project 3 Image 2 Placeholder" class="gallery-image">
+                        <img src="assets/images/project3_cfd.png" alt="Project 3 Image 3 Placeholder" class="gallery-image">
+                        <img src="assets/images/project3_chart.png" alt="Project 3 Image 4 Placeholder" class="gallery-image">
+                    </div>
+                </div>
+
+                <div class="project-report-full">
+                    <h3 class="subsection-title">Project Report</h3>
+                    <div class="pdf-embed-container">
+                        <iframe src="assets/pdfs/project3_report.pdf" type="application/pdf" width="100%" height="600px"></iframe>
+                        <p>If your browser does not support embedded PDFs- you can <a href="assets/pdfs/project3_report.pdf">download the PDF</a> instead.</p>
+                    </div>
+                </div>
+
+                 <div class="navigation-links">
+                    <a href="index.html#projects" class="btn-back-to-projects">Back to All Projects</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYear">2024</span> AKP. All Rights Reserved.</p>
+            <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+        </footer>
+    </div>
+</body>
+</html> 

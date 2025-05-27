@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 Details - AKP Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">AKP</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="project-detail-page">
+            <section id="project-content" class="content-section">
+                <h2 class="section-title" id="projectTitle">Optimizing Electric Vehicle Charging Infrastructure Placement</h2>
+                <img src="assets/images/project2_hero.jpg" alt="Project 2 Hero Image" class="project-hero-image-detail">
+
+                <div class="project-description-full">
+                    <p id="projectDescription">This project tackles the challenge of electric vehicle (EV) charging station placement by combining data-driven demand synthesis, charging-control policy simulation, and advanced optimization techniques—all presented in a formal IEEE conference report format and delivered as a research presentation to faculty at Purdue. With the rapid rise of EV adoption, siting charging stations to balance user convenience with grid reliability has become critical. My framework synthesizes realistic, time-varying demand, models diverse charging behaviors, and integrates both spatial and grid constraints into a modular pipeline.</p>
+                    <p id="projectDescription">The approach begins by generating synthetic EV trip and energy use patterns to emulate real-world urban demand. Multiple charging control policies are simulated to capture the variability in user plug-in habits and power profiles. Station locations are initialized using k-means clustering and then iteratively refined using a greedy local search, directly minimizing a combined cost of driver inconvenience and grid-node overload penalties. The final results show a 25% reduction in average user travel distance while guaranteeing zero grid-node capacity violations—demonstrating that the methodology is both efficient and highly effective for infrastructure planning.</p>
+                    <p id="projectDescription">Developed entirely as a standalone research project, this work provides a template for urban planners and utilities to rapidly explore the trade-offs between infrastructure density, user satisfaction, and grid performance. The computational workflow is adaptable to real-world constraints and paves the way for future integration with heterogeneous charger types, economic modeling, and stochastic optimization for resilient infrastructure design.</p>
+                </div>
+
+                <div class="project-features-full">
+                    <h3 class="subsection-title">Key Features:</h3>
+                    <ul id="projectKeyFeatures">
+                        <li>End-to-end, simulation-driven workflow for EV charging station placement that accounts for both driver convenience and grid reliability.</li>
+                        <li>Flexible modeling of real-world demand and user charging behaviors under multiple charging policies.</li>
+                        <li>Near-optimal station siting achieved through a combination of k-means clustering and greedy local search optimization.</li>
+                        <li>Explicit incorporation of grid-node energy and power constraints to prevent infrastructure overload.</li>
+                        <li>Demonstrated 25% reduction in average driver travel distances and balanced infrastructure utilization in a campus-scale case study.</li>
+                    </ul>
+                </div>
+
+                <div class="project-technologies-full">
+                    <h3 class="subsection-title">Technologies Used:</h3>
+                    <div class="tech-stack" id="projectTechnologies">
+                        <span>MATLAB</span>
+                        <span>Simulink</span>
+                        <span>CVX</span>
+                    
+                    </div>
+                </div>
+
+                <div class="project-gallery">
+                    <h3 class="subsection-title">Project Gallery</h3>
+                    <div class="gallery-grid">
+                        <img src="assets/images/project2_load.jpg" alt="Project 2 Image 1" class="gallery-image">
+                        <img src="assets/images/project2_heat.png" alt="Project 2 Image 2 Placeholder" class="gallery-image">
+                        <img src="assets/images/project2_dynaload.png" alt="Project 2 Image 3 Placeholder" class="gallery-image">
+                    </div>
+                </div>
+
+                <div class="project-report-full">
+                    <h3 class="subsection-title">Project Report</h3>
+                    <div class="pdf-embed-container">
+                        <iframe src="assets/pdfs/project2_report.pdf" type="application/pdf" width="100%" height="600px"></iframe>
+                        <p>If your browser does not support embedded PDFs- you can <a href="assets/pdfs/project2_report.pdf">download the PDF</a> instead.</p>
+                    </div>
+                </div>
+
+                <div class="navigation-links">
+                    <a href="index.html#projects" class="btn-back-to-projects">Back to All Projects</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYear">2024</span> AKP. All Rights Reserved.</p>
+            <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+        </footer>
+    </div>
+</body>
+</html> 
