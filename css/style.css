@@ -669,3 +669,29 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+/* --- General Button Styles (like Resume Button) --- */
+.button-link {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    background-color: #8B4513; /* Accent color */
+    color: #fff !important; /* Important to override general link color */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: none; /* Ensure no default border */
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #A0522D; /* Slightly lighter accent on hover */
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- Resume Button Specific Styles --- */
