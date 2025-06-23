@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectDetails = {
         project1: {
             title: "Astranew: Waterless Clothing Sanitation System for Space Missions",
+            status: "Patent Pending",
             heroImage: "assets/images/project1_hero.jpg", // Larger image for modal
             description: "Astranew is a closed-loop, water-free garment sanitation appliance developed to address the problem of textile waste on long-duration space missions. Utilizing UV-C sterilization and high-efficiency air circulation, Astranew achieves ≥99.9% microbial reduction and deodorization in under 20 minutes—eliminating the need for disposable clothing and conserving critical resources. Designed for microgravity and spacecraft integration, the prototype exceeded NASA's sanitation standards while demonstrating potential for both space and terrestrial applications.",
             keyFeatures: [
@@ -96,6 +97,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     techHTML = details.technologies.map(tech => `<span>${tech}</span>`).join('');
                 }
 
+                let statusHTML = '';
+                if (details.status) {
+                    statusHTML = `<p class="patent-status">${details.status}</p>`;
+                }
+
                 let linksHTML = '<div class="project-links">';
                 if (details.projectLink) {
                     linksHTML += `<a href="${details.projectLink}" target="_blank">View Project/Demo</a>`;
@@ -111,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 modalBody.innerHTML = `
                     <img src="${details.heroImage}" alt="${details.title}" class="modal-hero-image">
                     <h2>${details.title}</h2>
+                    ${statusHTML}
                     <p>${details.description}</p>
                     ${featuresHTML ? `<h3>Key Features & Contributions:</h3>${featuresHTML}` : ''}
                     ${techHTML ? `<h3>Technologies Used:</h3><div class="tech-stack">${techHTML}</div>` : ''}

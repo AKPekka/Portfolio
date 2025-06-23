@@ -1,0 +1,48 @@
+/* Custom Styles for Patent Pending and Contact Icons */
+
+/* --- Patent Status --- */
+#modalBody .patent-status {
+    font-style: italic;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.project-detail-page .patent-status {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/* --- Contact Section Icons --- */
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.contact-methods a {
+    font-size: 2.5rem; /* Larger icons */
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-methods a:hover {
+    color: #8B4513; /* Accent color on hover */
+    transform: scale(1.1);
+}
+
+#contact p {
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+}
+
+/* Overwriting the original p styling inside contact-methods */
+.contact-methods p {
+    display: none;
+} 
