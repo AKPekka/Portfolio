@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif; /* Clean sans-serif for body */
+    font-family: 'Inter', sans-serif; /* Clean sans-serif for body */
     line-height: 1.7;
     color: #333; /* Dark gray for text */
     background-color: #FAF9F6; /* Off-white, very light beige */
@@ -112,7 +112,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -257,7 +257,7 @@ header nav ul li a.active::after { /* For active page, if you implement multi-pa
     font-size: 0.85rem;
     color: #777;
     margin-top: 0.3rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /* --- Contact Section --- */
@@ -555,7 +555,7 @@ footer {
 .experience-item .company-name {
     font-size: 1.1rem;
     color: #555;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-bottom: 0.25rem;
 }
@@ -563,7 +563,7 @@ footer {
 .experience-item .job-dates {
     font-size: 0.9rem;
     color: #777;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     white-space: nowrap; /* Prevent dates from wrapping */
 }
 
@@ -677,7 +677,7 @@ footer {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -699,7 +699,7 @@ footer {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -727,5 +727,5 @@ footer {
     font-size: 1rem;
     color: #666;
     margin-bottom: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
